@@ -18,7 +18,7 @@ public class SingletonDB {
 	public static SingletonDB getInstance() throws Exception {
 		if (me==null) {
 			me = new SingletonDB();			
-			me.connect( "localhost", "agric", 3306, "root", "" );
+			me.connect( "localhost", "agric", 3306, "root", "vassoura" );
 			me.createStatement();
 			System.out.println(me);
 		}				

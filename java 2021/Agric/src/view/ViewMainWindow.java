@@ -70,9 +70,6 @@ public class ViewMainWindow {
 		mntmConsultarAgricultor.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_P, InputEvent.CTRL_MASK));
 		mnSistema.add(mntmConsultarAgricultor);
 		
-		JMenuItem mntmNewMenuItem = new JMenuItem("New menu item");
-		mnSistema.add(mntmNewMenuItem);
-		
 		JSeparator separator = new JSeparator();
 		mnSistema.add(separator);
 		
